@@ -1,0 +1,76 @@
+2022-05-26 17:46:50,585 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2022-05-26 17:46:50,596 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2022-05-26 17:46:50,596 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2022-05-26 17:46:50,597 INFO o.a.j.JMeter: Loading additional properties from: extra.properties
+2022-05-26 17:46:50,597 WARN o.a.j.JMeter: Can't find additional property file: extra.properties
+java.io.FileNotFoundException: extra.properties (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_202]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_202]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_202]
+	at org.apache.jmeter.JMeter.initializeProperties(JMeter.java:867) [ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.JMeter.start(JMeter.java:474) [ApacheJMeter_core.jar:5.4.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:254) [ApacheJMeter.jar:5.4.1]
+2022-05-26 17:46:50,600 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.output_format=xml
+2022-05-26 17:46:50,600 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.assertion_results=all
+2022-05-26 17:46:50,600 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.bytes=true
+2022-05-26 17:46:50,600 INFO o.a.j.JMeter: Setting JMeter property: file_format.testlog=2.1
+2022-05-26 17:46:50,600 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.response_data.on_error=false
+2022-05-26 17:46:50,606 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2022-05-26 17:46:50,606 INFO o.a.j.JMeter: Version 5.4.1
+2022-05-26 17:46:50,606 INFO o.a.j.JMeter: java.version=1.8.0_202
+2022-05-26 17:46:50,606 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2022-05-26 17:46:50,606 INFO o.a.j.JMeter: os.name=Windows 10
+2022-05-26 17:46:50,606 INFO o.a.j.JMeter: os.arch=amd64
+2022-05-26 17:46:50,606 INFO o.a.j.JMeter: os.version=10.0
+2022-05-26 17:46:50,606 INFO o.a.j.JMeter: file.encoding=GBK
+2022-05-26 17:46:50,606 INFO o.a.j.JMeter: java.awt.headless=true
+2022-05-26 17:46:50,607 INFO o.a.j.JMeter: Max memory     =129761280
+2022-05-26 17:46:50,607 INFO o.a.j.JMeter: Available Processors =8
+2022-05-26 17:46:50,611 INFO o.a.j.JMeter: Default Locale=中文 (中国)
+2022-05-26 17:46:50,612 INFO o.a.j.JMeter: JMeter  Locale=中文 (中国)
+2022-05-26 17:46:50,612 INFO o.a.j.JMeter: JMeterHome=D:\Users\admin\Downloads\apache-jmeter-5.4.1
+2022-05-26 17:46:50,612 INFO o.a.j.JMeter: user.dir  =D:\Users\admin\Downloads\apache-jmeter-5.4.1\bin
+2022-05-26 17:46:50,612 INFO o.a.j.JMeter: PWD       =D:\Users\admin\Downloads\apache-jmeter-5.4.1\bin
+2022-05-26 17:46:59,643 INFO o.a.j.JMeter: IP: 192.168.182.120 Name: xzbPC FullName: xzbPC
+2022-05-26 17:46:59,648 INFO o.a.j.s.FileServer: Default base='D:\Users\admin\Downloads\apache-jmeter-5.4.1\bin'
+2022-05-26 17:46:59,648 INFO o.a.j.s.FileServer: Set new base='D:\Users\admin\Downloads\apache-jmeter-5.4.1\tests\scripts'
+2022-05-26 17:46:59,736 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-05-26 17:46:59,748 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-05-26 17:46:59,751 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-05-26 17:46:59,755 INFO o.a.j.s.SaveService: Loading file: D:\Users\admin\Downloads\apache-jmeter-5.4.1\tests\scripts\books.jmx
+2022-05-26 17:46:59,808 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-05-26 17:46:59,808 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-05-26 17:46:59,808 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-05-26 17:46:59,808 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-05-26 17:46:59,808 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-05-26 17:46:59,808 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-05-26 17:46:59,827 INFO o.a.j.JMeter: Creating summariser <summary>
+2022-05-26 17:46:59,830 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-05-26 17:46:59,830 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-05-26 17:46:59,831 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-05-26 17:46:59,834 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-05-26 17:46:59,835 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-05-26 17:47:00,071 INFO o.a.j.JMeter: 正在运行的测试 (1653558420071)
+2022-05-26 17:47:00,100 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 书籍接口
+2022-05-26 17:47:00,100 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 书籍接口.
+2022-05-26 17:47:00,100 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-05-26 17:47:00,100 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-05-26 17:47:00,104 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-05-26 17:47:00,104 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-05-26 17:47:00,107 INFO o.a.j.t.JMeterThread: Thread started: 书籍接口 1-1
+2022-05-26 17:47:00,125 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = xzbPC
+2022-05-26 17:47:00,133 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2022-05-26 17:47:00,134 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-05-26 17:47:00,134 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-05-26 17:47:00,134 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-05-26 17:47:00,134 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-05-26 17:47:00,262 INFO o.a.j.r.Summariser: summary +      1 in 00:00:00 =    5.3/s Avg:    46 Min:    46 Max:    46 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2022-05-26 17:47:00,349 INFO o.a.j.t.JMeterThread: Thread is done: 书籍接口 1-1
+2022-05-26 17:47:00,350 INFO o.a.j.t.JMeterThread: Thread finished: 书籍接口 1-1
+2022-05-26 17:47:00,350 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-05-26 17:47:00,351 INFO o.a.j.r.Summariser: summary +     10 in 00:00:00 =  109.9/s Avg:     3 Min:     2 Max:     4 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+2022-05-26 17:47:00,351 INFO o.a.j.r.Summariser: summary =     11 in 00:00:00 =   39.3/s Avg:     6 Min:     2 Max:    46 Err:     0 (0.00%)
