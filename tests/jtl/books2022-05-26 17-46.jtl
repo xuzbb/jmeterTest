@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="46" it="0" lt="43" ct="33" ts="1653558420205" s="true" lb="添加书籍" rc="200" rm="OK" tn="书籍接口 1-1" dt="text" de="" by="240" sby="294" ng="1" na="1" hn="xzbPC">
+  <assertionResult>
+    <name>响应断言-业务状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言-协议状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Werkzeug/2.1.2 Python/3.8.5
+Date: Thu, 26 May 2022 09:47:00 GMT
+Content-Type: application/json
+Content-Length: 76
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Content-Length: 71
+Host: 127.0.0.1:5000
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+Authorization: Basic YWRtaW46YWRtaW4=
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;msg&quot;: &quot;\u6dfb\u52a0\u4e66\u7c4d\u6210\u529f\uff01&quot;, 
+  &quot;status&quot;: 200
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+    &quot;name&quot;:&quot;selenium22&quot;,&#xd;
+    &quot;author&quot;:&quot;xuxu22&quot;,&#xd;
+    &quot;done&quot;:true&#xd;
+}</queryString>
+  <java.net.URL>http://127.0.0.1:5000/v2/api/books</java.net.URL>
+</httpSample>
+<httpSample t="2" it="0" lt="2" ct="1" ts="1653558420263" s="true" lb="添加书籍" rc="200" rm="OK" tn="书籍接口 1-1" dt="text" de="" by="240" sby="294" ng="1" na="1" hn="xzbPC">
+  <assertionResult>
+    <name>响应断言-业务状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言-协议状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Werkzeug/2.1.2 Python/3.8.5
+Date: Thu, 26 May 2022 09:47:00 GMT
+Content-Type: application/json
+Content-Length: 76
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Content-Length: 71
+Host: 127.0.0.1:5000
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+Authorization: Basic YWRtaW46YWRtaW4=
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;msg&quot;: &quot;\u6dfb\u52a0\u4e66\u7c4d\u6210\u529f\uff01&quot;, 
+  &quot;status&quot;: 200
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+    &quot;name&quot;:&quot;selenium11&quot;,&#xd;
+    &quot;author&quot;:&quot;xuxu11&quot;,&#xd;
+    &quot;done&quot;:true&#xd;
+}</queryString>
+  <java.net.URL>http://127.0.0.1:5000/v2/api/books</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="1" ts="1653558420267" s="true" lb="查询所有书籍" rc="200" rm="OK" tn="书籍接口 1-1" dt="text" de="" by="698" sby="202" ng="1" na="1" hn="xzbPC">
+  <assertionResult>
+    <name>响应断言-业务状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言-协议状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>JSON断言第4本书籍添加成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Werkzeug/2.1.2 Python/3.8.5
+Date: Thu, 26 May 2022 09:47:00 GMT
+Content-Type: application/json
+Content-Length: 533
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Host: 127.0.0.1:5000
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+Authorization: Basic YWRtaW46YWRtaW4=
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;data&quot;: [
+    {
+      &quot;author&quot;: &quot;wang&quot;, 
+      &quot;done&quot;: true, 
+      &quot;id&quot;: 1, 
+      &quot;name&quot;: &quot;java\u5b66\u4e60&quot;
+    }, 
+    {
+      &quot;author&quot;: &quot;zhou&quot;, 
+      &quot;done&quot;: false, 
+      &quot;id&quot;: 2, 
+      &quot;name&quot;: &quot;python\u5b66\u4e60&quot;
+    }, 
+    {
+      &quot;author&quot;: &quot;xuxu22&quot;, 
+      &quot;done&quot;: true, 
+      &quot;id&quot;: 3, 
+      &quot;name&quot;: &quot;selenium22&quot;
+    }, 
+    {
+      &quot;author&quot;: &quot;xuxu11&quot;, 
+      &quot;done&quot;: true, 
+      &quot;id&quot;: 4, 
+      &quot;name&quot;: &quot;selenium11&quot;
+    }
+  ], 
+  &quot;msg&quot;: &quot;\u67e5\u8be2\u6240\u6709\u4e66\u7c4dok&quot;, 
+  &quot;nums&quot;: 4, 
+  &quot;status&quot;: 200
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://127.0.0.1:5000/v2/api/books</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="4" ct="2" ts="1653558420315" s="true" lb="更新3" rc="200" rm="OK" tn="书籍接口 1-1" dt="text" de="" by="368" sby="288" ng="1" na="1" hn="xzbPC">
+  <assertionResult>
+    <name>响应断言-业务状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言-协议状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Werkzeug/2.1.2 Python/3.8.5
+Date: Thu, 26 May 2022 09:47:00 GMT
+Content-Type: application/json
+Content-Length: 203
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Content-Length: 65
+Host: 127.0.0.1:5000
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+Authorization: Basic YWRtaW46YWRtaW4=
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;data&quot;: [
+    {
+      &quot;author&quot;: &quot;test1&quot;, 
+      &quot;done&quot;: true, 
+      &quot;id&quot;: 3, 
+      &quot;name&quot;: &quot;test1&quot;
+    }
+  ], 
+  &quot;msg&quot;: &quot;\u66f4\u65b0\u4e66\u7c4d\u4fe1\u606f\u6210\u529f\uff01&quot;, 
+  &quot;status&quot;: 200
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String">{&#xd;
+    &quot;name&quot;:&quot;test1&quot;,&#xd;
+    &quot;author&quot;:&quot;test1&quot;,&#xd;
+    &quot;done&quot;:true&#xd;
+}</queryString>
+  <java.net.URL>http://127.0.0.1:5000/v2/api/book/3</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="1" ts="1653558420320" s="true" lb="更新4" rc="200" rm="OK" tn="书籍接口 1-1" dt="text" de="" by="368" sby="288" ng="1" na="1" hn="xzbPC">
+  <assertionResult>
+    <name>响应断言-业务状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言-协议状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Werkzeug/2.1.2 Python/3.8.5
+Date: Thu, 26 May 2022 09:47:00 GMT
+Content-Type: application/json
+Content-Length: 203
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Content-Length: 65
+Host: 127.0.0.1:5000
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+Authorization: Basic YWRtaW46YWRtaW4=
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;data&quot;: [
+    {
+      &quot;author&quot;: &quot;test2&quot;, 
+      &quot;done&quot;: true, 
+      &quot;id&quot;: 4, 
+      &quot;name&quot;: &quot;test2&quot;
+    }
+  ], 
+  &quot;msg&quot;: &quot;\u66f4\u65b0\u4e66\u7c4d\u4fe1\u606f\u6210\u529f\uff01&quot;, 
+  &quot;status&quot;: 200
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">PUT</method>
+  <queryString class="java.lang.String">{&#xd;
+    &quot;name&quot;:&quot;test2&quot;,&#xd;
+    &quot;author&quot;:&quot;test2&quot;,&#xd;
+    &quot;done&quot;:true&#xd;
+}</queryString>
+  <java.net.URL>http://127.0.0.1:5000/v2/api/book/4</java.net.URL>
+</httpSample>
+<httpSample t="2" it="0" lt="2" ct="1" ts="1653558420324" s="true" lb="查询更新书籍3" rc="200" rm="OK" tn="书籍接口 1-1" dt="text" de="" by="316" sby="203" ng="1" na="1" hn="xzbPC">
+  <assertionResult>
+    <name>响应断言-业务状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言-协议状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>JSON断言-书籍3name</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>JSON断言-书籍3author</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Werkzeug/2.1.2 Python/3.8.5
+Date: Thu, 26 May 2022 09:47:00 GMT
+Content-Type: application/json
+Content-Length: 151
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Host: 127.0.0.1:5000
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+Authorization: Basic YWRtaW46YWRtaW4=
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;data&quot;: [
+    {
+      &quot;author&quot;: &quot;test1&quot;, 
+      &quot;done&quot;: true, 
+      &quot;id&quot;: 3, 
+      &quot;name&quot;: &quot;test1&quot;
+    }
+  ], 
+  &quot;msg&quot;: &quot;ok&quot;, 
+  &quot;status&quot;: 200
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://127.0.0.1:5000/v2/api/book/3</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="1" ts="1653558420329" s="true" lb="查询跟新书籍4" rc="200" rm="OK" tn="书籍接口 1-1" dt="text" de="" by="316" sby="203" ng="1" na="1" hn="xzbPC">
+  <assertionResult>
+    <name>响应断言-业务状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言-协议状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>JSON断言-书籍4author</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>JSON断言-书籍4name</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Werkzeug/2.1.2 Python/3.8.5
+Date: Thu, 26 May 2022 09:47:00 GMT
+Content-Type: application/json
+Content-Length: 151
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Host: 127.0.0.1:5000
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+Authorization: Basic YWRtaW46YWRtaW4=
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;data&quot;: [
+    {
+      &quot;author&quot;: &quot;test2&quot;, 
+      &quot;done&quot;: true, 
+      &quot;id&quot;: 4, 
+      &quot;name&quot;: &quot;test2&quot;
+    }
+  ], 
+  &quot;msg&quot;: &quot;ok&quot;, 
+  &quot;status&quot;: 200
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://127.0.0.1:5000/v2/api/book/4</java.net.URL>
+</httpSample>
+<httpSample t="4" it="0" lt="3" ct="1" ts="1653558420334" s="true" lb="查询所有书籍" rc="200" rm="OK" tn="书籍接口 1-1" dt="text" de="" by="686" sby="202" ng="1" na="1" hn="xzbPC">
+  <assertionResult>
+    <name>响应断言-业务状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言-协议状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Werkzeug/2.1.2 Python/3.8.5
+Date: Thu, 26 May 2022 09:47:00 GMT
+Content-Type: application/json
+Content-Length: 521
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Host: 127.0.0.1:5000
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+Authorization: Basic YWRtaW46YWRtaW4=
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;data&quot;: [
+    {
+      &quot;author&quot;: &quot;wang&quot;, 
+      &quot;done&quot;: true, 
+      &quot;id&quot;: 1, 
+      &quot;name&quot;: &quot;java\u5b66\u4e60&quot;
+    }, 
+    {
+      &quot;author&quot;: &quot;zhou&quot;, 
+      &quot;done&quot;: false, 
+      &quot;id&quot;: 2, 
+      &quot;name&quot;: &quot;python\u5b66\u4e60&quot;
+    }, 
+    {
+      &quot;author&quot;: &quot;test1&quot;, 
+      &quot;done&quot;: true, 
+      &quot;id&quot;: 3, 
+      &quot;name&quot;: &quot;test1&quot;
+    }, 
+    {
+      &quot;author&quot;: &quot;test2&quot;, 
+      &quot;done&quot;: true, 
+      &quot;id&quot;: 4, 
+      &quot;name&quot;: &quot;test2&quot;
+    }
+  ], 
+  &quot;msg&quot;: &quot;\u67e5\u8be2\u6240\u6709\u4e66\u7c4dok&quot;, 
+  &quot;nums&quot;: 4, 
+  &quot;status&quot;: 200
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://127.0.0.1:5000/v2/api/books</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="2" ts="1653558420338" s="true" lb="删除3" rc="200" rm="OK" tn="书籍接口 1-1" dt="text" de="" by="222" sby="225" ng="1" na="1" hn="xzbPC">
+  <assertionResult>
+    <name>响应断言-业务状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言-协议状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Werkzeug/2.1.2 Python/3.8.5
+Date: Thu, 26 May 2022 09:47:00 GMT
+Content-Type: application/json
+Content-Length: 58
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Content-Length: 0
+Host: 127.0.0.1:5000
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+Authorization: Basic YWRtaW46YWRtaW4=
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;msg&quot;: &quot;\u5220\u9664\u6210\u529f&quot;, 
+  &quot;status&quot;: 200
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://127.0.0.1:5000/v2/api/book/3</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="1" ts="1653558420342" s="true" lb="删除4" rc="200" rm="OK" tn="书籍接口 1-1" dt="text" de="" by="222" sby="225" ng="1" na="1" hn="xzbPC">
+  <assertionResult>
+    <name>响应断言-业务状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言-协议状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Werkzeug/2.1.2 Python/3.8.5
+Date: Thu, 26 May 2022 09:47:00 GMT
+Content-Type: application/json
+Content-Length: 58
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Content-Length: 0
+Host: 127.0.0.1:5000
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+Authorization: Basic YWRtaW46YWRtaW4=
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;msg&quot;: &quot;\u5220\u9664\u6210\u529f&quot;, 
+  &quot;status&quot;: 200
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">DELETE</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://127.0.0.1:5000/v2/api/book/4</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="1" ts="1653558420346" s="true" lb="查询所有书籍" rc="200" rm="OK" tn="书籍接口 1-1" dt="text" de="" by="488" sby="202" ng="1" na="1" hn="xzbPC">
+  <assertionResult>
+    <name>响应断言-业务状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言-协议状态码</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>JSON断言第4本书籍添加成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: Werkzeug/2.1.2 Python/3.8.5
+Date: Thu, 26 May 2022 09:47:00 GMT
+Content-Type: application/json
+Content-Length: 323
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+Host: 127.0.0.1:5000
+User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_202)
+Authorization: Basic YWRtaW46YWRtaW4=
+</requestHeader>
+  <responseData class="java.lang.String">{
+  &quot;data&quot;: [
+    {
+      &quot;author&quot;: &quot;wang&quot;, 
+      &quot;done&quot;: true, 
+      &quot;id&quot;: 1, 
+      &quot;name&quot;: &quot;java\u5b66\u4e60&quot;
+    }, 
+    {
+      &quot;author&quot;: &quot;zhou&quot;, 
+      &quot;done&quot;: false, 
+      &quot;id&quot;: 2, 
+      &quot;name&quot;: &quot;python\u5b66\u4e60&quot;
+    }
+  ], 
+  &quot;msg&quot;: &quot;\u67e5\u8be2\u6240\u6709\u4e66\u7c4dok&quot;, 
+  &quot;nums&quot;: 2, 
+  &quot;status&quot;: 200
+}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://127.0.0.1:5000/v2/api/books</java.net.URL>
+</httpSample>
+
+</testResults>
